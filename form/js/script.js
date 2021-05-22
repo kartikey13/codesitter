@@ -19,7 +19,7 @@ var password = document.getElementById('password');
 var answer = document.getElementById('answer')
 var submitBtn = document.getElementById("submit");
     
-//Checker function inside main function
+//Checker function, checks if any input fields are left empty
 submitBtn.onclick = (function(e){
      e.preventDefault();
      //trimming spaces from values
