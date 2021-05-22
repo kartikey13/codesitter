@@ -3,7 +3,7 @@ var product = document.getElementsByClassName('product');
 numberpages = Math.ceil(product.length/4);
 var l = 0;
 var moveper = 25.34;
-var maxmove = 203;
+var maxmove = 228.06;
 
 
 //Mobile view
