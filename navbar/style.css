@@ -1,3 +1,7 @@
+body{
+    margin:0;
+}
+
 .wrapper{
     width: 100%;
     height: 100%;
@@ -15,6 +19,7 @@
     justify-content: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    margin:0;
 
 }
 
@@ -30,8 +35,26 @@
     color: floralwhite;
     width:180px;
     height: 60px;
+}
+
+.wrap{
+    text-transform: uppercase;
+    width:150px;
+    height: 30px;
+    padding: 15px;
     text-align: center;
 }
+
+
+.navbar-item.active,
+.dd-start.active{
+        background-color:greenyellow;
+}
+
+.navbar-item.active + .dd-menu{
+    display:block;
+}
+
 
 .navbar ul li > a{
     margin-right: 1rem;
@@ -39,10 +62,14 @@
 
 
 .navbar .dd-menu{
-    top: 120%;
+    top: 127%;
     left: -20%;
     position: absolute;
-    visibility:hidden ;
+    display: none;
+}
+
+.dd-start.active + .dd-submenu{
+    display: block;
 }
 
 .navbar .dd-menu ul li a{
@@ -53,7 +80,7 @@
 .navbar .dd-menu:before{
         content: "";
         position: absolute;
-        top:-15%;
+        top:-18%;
         left:55%;
         transform: translateX(-50%);
         z-index: 1;
@@ -61,12 +88,31 @@
         border-color: transparent transparent blueviolet transparent;
 }
 
+.dd-submenu{
+    top: 20%;
+    left:80%;
+    position: absolute;
+    display:none;
+}
+
+.navbar .dd-submenu:before{
+    content: "";
+    position: absolute;
+    top:0%;
+    left:10%;
+    transform: translateX(-50%);
+    z-index: 1;
+    border:15px solid;
+    border-color: transparent blueviolet transparent transparent;
+}
 
 
 .navbar ul li a:hover,
-.navbar ul li a .active,
-.navbar .dd-menu ul li a:hover,
-.navbar .dd-menu ul li a .active
-{
-        background-color: greenyellow;
+.navbar .dd-menu ul li a:hover{
+    background-color: #79f794;
+}
+
+.navbar-item.active,
+.dd-start.active{
+    background-color: #29dd50 !important;
 }
