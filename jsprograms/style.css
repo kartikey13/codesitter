@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+div{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 45%;
+    border: 2px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding:25px;
+}
+
+h1{
+    text-align: center;
+}
