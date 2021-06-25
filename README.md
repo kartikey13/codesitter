@@ -1,16 +1,14 @@
-# A Sign Up Modal 
+# 1 to 5 simle projects using javascript
 
-#Introduction
+#Project named form
 Front page has a button in the middle of screen which one clicked dynamically executes javascript for bringing up a modal box asking for Username, Email, password, and security Question. The border turns red and error message diplays below if the input fields are left empty before clicking submit button. There is also a modal close button to close the modal.
 
-#Format of files
-The form folder is the parent folder consisting of css, js, image folders & index.html. 
+#Project named loginform
+There is a signuppage which takes info and stores it into localStorage and assigns location to signin page if all input text fields are filled, the signin page asks for user credentials and assign a new page if the values are met or the page reloads.
 
-#Inside CSS Files
-There is Bootstrap.min, all.min & styles.js
+#programs
+There are three programs written in javascript using array methods. The three prog. return the smallest SCM of numbers in between two inputs, ejecting any three random numbers from an array and Palindrome. In each you have to enter an array. In the smallest SCM enter any two numbers.
 
-#Inside JS
-There is bootstrap.min.js & script.js which is my javascript file.
 
 
 I hope you like it! :smiley:
