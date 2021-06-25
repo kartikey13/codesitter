@@ -1,0 +1,67 @@
+body{
+    margin:0;
+}
+
+.wrapper{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 590px;
+}
+
+.form{
+    margin: 40px;
+    padding:15px;
+    position: relative;
+    width: 28%;
+    border: solid 2px black;
+    text-align: center;
+}
+.user{
+    height:auto;
+
+}
+
+.user input{
+    width:60%;
+    height: 25px;
+    border-radius: .3rem;
+    box-sizing: border-box;
+    margin:0 !important;
+}
+
+.user span{
+    visibility:hidden;
+    padding: 3px;
+    display: block;
+    color:#f72323;
+    width:62%;
+    margin: auto;
+    text-align: left !important;
+}
+
+
+ button{
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    height: 30px;
+    width:50%;
+}
+.form p{
+    margin:auto;
+}
+.form a{
+    color:green;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.error{
+    border: 2px solid #f72323 !important;
+}
+
+ .success{
+    border: 2px solid green !important;
+}
