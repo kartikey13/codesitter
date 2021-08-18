@@ -1,0 +1,19 @@
+form{
+    width:50%;
+    margin:auto;
+}
+
+table, th, td{
+    border:1px solid gray;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    margin:auto;
+}
+
+th, td{
+    padding: 20px;
+}
+
+th{
+    text-align: left;
+}
