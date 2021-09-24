@@ -1,0 +1,44 @@
+body{
+    background:linear-gradient(to right, red, blue, white, green, yellow, pink, purple);
+    margin:0;
+}
+
+
+.wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    padding:1rem;
+    margin: 0;
+}
+
+.user{
+    padding: 2rem;
+    background-color: aqua;
+}
+
+button{
+    position: absolute;
+    left:45%;
+    width:150px;
+    height:40px;
+    background-color: chartreuse;
+    border-color:aqua;
+}
+
+img{
+    border: 2px solid gray;
+    border-radius: 8px;
+    height:300px;
+
+}
+
+h2{
+    text-align: center;
+    color: purple;
+}
